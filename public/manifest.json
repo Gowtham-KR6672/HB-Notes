@@ -1,0 +1,23 @@
+{
+  "name": "HB Notes",
+  "short_name": "HB Notes",
+  "description": "Installable notes workspace with offline viewing support.",
+  "start_url": "/notes",
+  "display": "standalone",
+  "background_color": "#f8f4ec",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icons/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
