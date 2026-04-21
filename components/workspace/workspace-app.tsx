@@ -348,7 +348,6 @@ export function WorkspaceApp({ initialNotes, user }: WorkspaceAppProps) {
           setIsSettingsOpen(false);
           trashView ? exitTrashView() : enterTrashView();
         }}
-        user={user} 
       />
 
       <ProfileModal
