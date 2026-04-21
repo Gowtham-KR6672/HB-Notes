@@ -1,3 +1,5 @@
+"use client";
+
 import { Star, Filter } from "lucide-react";
 import { motion } from "motion/react";
 
