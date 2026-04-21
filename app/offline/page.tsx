@@ -1,3 +1,5 @@
+"use client";
+
 import { WifiOff, RefreshCw } from "lucide-react";
 import { motion } from "motion/react";
 
@@ -51,7 +53,7 @@ export default function OfflinePage() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-3xl font-bold text-foreground mb-4"
           >
-            You're offline
+            You&apos;re offline
           </motion.h1>
 
           <motion.p

@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Pin, Search, X, Sparkles, Trash2, ArrowLeft } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -63,6 +65,7 @@ export function NoteList({
               <motion.div 
                 className="bento-panel overflow-hidden w-11 h-11 rounded-2xl flex items-center justify-center shadow-none border border-border"
               >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/icons/logo.png" alt="HB Notes" className="w-full h-full object-cover" />
               </motion.div>
           {/* Title changes based on active tab */}
@@ -100,6 +103,7 @@ export function NoteList({
             >
               <div className="bg-foreground/10 text-foreground h-9 w-9 rounded-full flex items-center justify-center font-bold text-sm overflow-hidden">
                 {userAvatar ? (
+                  /* eslint-disable-next-line @next/next/no-img-element */
                   <img src={userAvatar} alt="Profile" className="w-full h-full object-cover" />
                 ) : (
                   user?.name?.charAt(0)?.toUpperCase()

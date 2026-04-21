@@ -1,3 +1,5 @@
+"use client";
+
 import { User, Bell, Moon, Sun, Shield, LogOut, ChevronRight } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { motion } from "motion/react";
